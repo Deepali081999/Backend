@@ -1,0 +1,4 @@
+{
+    "appService.preDeployTask": "package:App",
+    "appService.deploySubpath": "target/App-0.0.1-SNAPSHOT.jar"
+}
