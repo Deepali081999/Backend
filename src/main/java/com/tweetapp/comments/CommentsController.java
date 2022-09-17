@@ -17,6 +17,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @CrossOrigin
 @RestController
+
 public class CommentsController {
 	
 	Logger log = LoggerFactory.getLogger(Comments.class);
