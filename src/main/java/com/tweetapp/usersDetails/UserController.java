@@ -18,7 +18,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@CrossOrigin
+@CrossOrigin(allowedHeaders = {"Authorization","Origin"})
 @RestController
 public class UserController {
 	
